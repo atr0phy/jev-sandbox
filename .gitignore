@@ -1,0 +1,29 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+
+# Build output and caches
+dist/
+.vite/
+*.tsbuildinfo
+
+# Test output (test source files remain tracked)
+test-result/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+coverage/
+
+# Local environment variables and credentials
+.env
+.env.*
+
+# Local IDE settings
+.idea/
+*.iml
+
+# Logs and OS-generated files
+*.log
+.DS_Store
+Thumbs.db
